@@ -26,7 +26,7 @@ get_header(); ?>
 								 the_content();
 							endwhile; // End of the loop. ?>
 
-					    <div id="map"></div>
+					    <div id="map" style="margin-bottom: 40px;"></div>
 
 					   <script type="text/javascript">
 
@@ -106,6 +106,7 @@ get_header(); ?>
 						    <script async defer
 						      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUDSoEIOBqX8sO4fNzdk2JgMXWOX7cPPE&callback=initMap">
 						    </script>
+
 						  </body>
 					
 
