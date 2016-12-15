@@ -80,7 +80,7 @@ get_header(); ?>
 							      title: markers[0]
 							    });
 							  	
-							  	var contentString = html;
+							  	/*var contentString = html;
 							  	var infowindow = new google.maps.InfoWindow({
 							  		
 							  	});
@@ -88,10 +88,18 @@ get_header(); ?>
 			  				 	marker[i].addListener('click', function() {
 			  				 		infowindow.setContent(contentString);
 							 		infowindow.open(map, marker[i]);
-							  	});
+							  	}); */
 
 			  					
 							}
+							/*
+							 var marker = new google.maps.Marker({
+							    position: {lat: 45.638927, lng: 4.867375},
+							    map: map,
+							    title: 'Saint Symphorien D\'ozon',
+							    content: 'Test !'
+							  });
+							*/
 						}
 
 						    </script>
